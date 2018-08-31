@@ -22,6 +22,7 @@ showCount(str)
 > 给定一对象和一数组，从该对象中依据该数组给定的key值筛选出一个新对象？
 
 ```Javascript
+
 function extractObj(obj) {
 	if(Object.prototype.toString.call(obj) !== '[object Object]') {
 		throw new Error("The param is JSON's Object type");
