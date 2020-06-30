@@ -39,7 +39,7 @@ function extractObj(obj) {
 	}
 }
 
-let a = {name: 'sgg', age: 24, phone: 1234567789};
+let a = {name: '乘风破浪大前端', age: 24, phone: 1234567789};
 let extractA = extractObj(a);
 
 extractA(['name', 'hello', 'age'])

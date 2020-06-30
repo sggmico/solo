@@ -200,7 +200,7 @@ obj.callAPI(fn, 100, 200); //分别输出 10 和 3;
 function helloThis() {
     console.log(this.length);
 }
-var arr = [helloThis, 1, 'smile', 'sgg', 100]
+var arr = [helloThis, 1, 'smile', '乘风破浪大前端', 100]
 arr[0]() // ->5
 ```
 
@@ -299,7 +299,7 @@ function b(arg) {
 
 // myBind(a, b)('sgg'); //-> 'a:sgg'
 
-b('sgg') //-> 'b:sgg'
+b('乘风破浪大前端') //-> 'b:sgg'
 
 ```
 

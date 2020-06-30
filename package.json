@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev blogs",
-    "prod": "vuepress build blogs"
+    "pro": "vuepress build blogs"
   },
   "keywords": [],
   "author": "",
