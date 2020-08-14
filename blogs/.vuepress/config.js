@@ -10,35 +10,23 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: `/icon/favicon1.png` }]
     ],
+    // theme:'reco',
     themeConfig: {
         search: true,
         nav: [
             { text: '首页', link: '/' },
             { text: '博客', link: '/blog/' },
             { text: '关于我', link: '/about/' },
+            { text: '时间轴', link: '/timeline/'},
             { text: 'Github', link: 'https://github.com/szjxxy' }
             // { text: 'External', link: 'https://google.com' },
         ],
-        sidebar: {
-            '/blog/2018-06/': [
-                '/',
-                '/blog/2018-06/',
-                'javascript-小题测试'
-            ],
-            '/blog/2018-08/': [
-                '/',
-                '/blog/2018-08/',
-                'reduce'
-            ]
-            // '/': [
-            //     '',
-            //     ''
-            // ]
-        }
+        sidebar: 'auto'
     },
     markdown: {
+        lineNumbers: true,
         anchor: {
-            permalinkSymbol: '@'
+            // permalinkSymbol: '@'
         }
     }
 }
